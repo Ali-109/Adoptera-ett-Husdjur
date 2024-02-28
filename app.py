@@ -30,9 +30,8 @@ def index():
 <li><a href='/animals/cats'>Cats </a> </li> 
 <li><a href='/animals/rabbits'>Rabbits</a></li> 
 </ul>
-
   '''
-
+# hej
 
 # Route to display the list of pets based on pet type
 @app.route('/animals/<string:pet_type>')
@@ -68,6 +67,7 @@ def pet(pet_id, pet_type):
     <li>{pet["breed"]} </li>
     <li>{pet["age"]} </li>
   </ul>
+  
   '''
 
 
